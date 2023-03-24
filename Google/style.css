@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Sans Serif';
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(Images/Abstract.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-recherche {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 2px 20px;
+    backdrop-filter: blur(3px) saturate(180%);
+}
+
+.bar-recherche input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 16px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.bar-recherche button img {
+    position: absolute;
+    top: 7.5px;
+    left: 625px;
+    width: 65px;
+}
+
+.bar-recherche button {
+    border: 0;
+    border-radius: 100px;
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+}
+
+.text-accueil{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+.Google {
+    height: 175px;
+}
